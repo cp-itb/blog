@@ -1,0 +1,15 @@
+name: Komunitas CP ITB
+description: Blog Komunitas CP ITB
+meta_description: "Blog komunitas competitive programming ITB"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'CP ITB'
