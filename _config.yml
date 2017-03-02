@@ -3,7 +3,7 @@ description: Blog Komunitas CP ITB
 meta_description: "Blog komunitas competitive programming ITB"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
