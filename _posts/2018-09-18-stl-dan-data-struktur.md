@@ -66,12 +66,15 @@ int main() {
     cin >> q;
     for (int i=0; i<q; i++) {
         cin >> x;
-        s.push(x);                           // memasukkan elemen ke dalam stack
+        // memasukkan elemen ke dalam stack
+        s.push(x);
     }
 
     while (!s.empty()) {
-        cout << s.top();         // menuliskan elemen terakhir yang belum di pop
-        s.pop();                  // menghapus elemen terakhir yang belum di pop
+        // menuliskan elemen terakhir yang belum di pop
+        cout << s.top();
+        // menghapus elemen terakhir yang belum di pop
+        s.pop();
     }
 }
 ```
@@ -194,8 +197,54 @@ maksimum. Ada 2 cara untuk menyelesaikan ini:
 
 ### Map
 
-under construction.
+Map pada dasarnya seperti array, tapi indeksnya bisa integer (hingga 2 milyar),
+string, dan lain-lain.
+
+#### Penggunaan
+
+``` C++
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    map<string, string> m;
+    m["A"] = "B";
+    m["C"] = "D";
+    m["A"] = "F";
+
+    cout << m["A"]; // "F"
+}
+```
 
 ### Set
 
-under construction.
+Set adalah struktur data yang selalu menyimpan data-datanya tanpa duplikat terurut berdasarkan suatu comparator.
+set memiliki operasi-operasi yang penting, yaitu :
+- Insert : menambah data ke set jika data belum ada di set
+- Delete : menghapus data dari set
+- Find : mencari data di set jika ada
+
+#### Penggunaan
+
+``` C++
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    set<int> s;
+
+    s.insert(9);
+    s.insert(5);
+    s.insert(2);
+    s.insert(5);
+    s.insert(10);
+
+    for(int x : s){
+        cout<<x<<" ";
+    }
+    cout<<endl;
+    // 2 5 9 10
+}
+```
