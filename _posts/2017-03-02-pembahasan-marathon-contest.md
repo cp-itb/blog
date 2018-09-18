@@ -2,7 +2,7 @@
 layout: post
 title:  "Pembahasan Marathon Contest"
 date:   2017-03-02 06:00:00 +7
-categories: [ Contest ]
+categories: [Contest]
 author: Jauhar Arifin
 profpic: jauhararifin
 author-description: Entah apa

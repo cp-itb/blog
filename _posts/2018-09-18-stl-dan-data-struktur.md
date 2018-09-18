@@ -2,11 +2,14 @@
 layout: post
 title:  "STL dan Data Struktur"
 date:   2018-09-18 19:00:00 +7
-categories: [ Data Struture ]
+categories: [Data Structure]
 author: Yonas Adiel
 profpic: yonasadiel
 author-description: Ketua Komunitas CP ITB 2018/2019
 ---
+
+Post kali ini akan membahasa beberapa data struktur sederhana: vector, stack, queue,
+dequeue, priority queue, map, dan set.
 
 ### Vector
 
@@ -188,3 +191,11 @@ maksimum. Ada 2 cara untuk menyelesaikan ini:
    dan nilai maksimum di pq adalah nilai minimum dari input.
 2. Deklarasikan pq dengan `priority_queue<int, vector<int>, greater<int> >`
    pq akan otomatis terurut tidak menurun.
+
+### Map
+
+under construction.
+
+### Set
+
+under construction.
