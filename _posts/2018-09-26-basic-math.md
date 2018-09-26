@@ -8,13 +8,12 @@ profpic: tony
 author-description: Informatika 2016
 ---
 
-### Basic Math
-
 Post kali ini akan membahas beberapa algoritma dan/atau materi tentang math yang sering dipakai.
 
 #### Greatest Common Divisor (GCD)
 Mencari FPB merupakan hal yang sering kali dilakukan pada soal-soal math dan juga sering digunakan oleh orang-orang. Berikut implementasi C++ dengan menggunakan algoritma euclid yang menggunakan sifat FPB, yaitu
 `fpb(a, b) = fpb(a, b mod a)`
+
 ```c++
 int gcd(int a, int b){
 	if(b==0) return a;
@@ -29,8 +28,9 @@ int gcd(int a, int b){
 ```
 
 Akan tetapi, C++ sudah memberikan STL (Standart Template Library) untuk fungsi FPB, yaitu `__gcd`, dengan penggunaan sebagai berikut.
-```
-###include <cmath>
+
+``` cpp
+#include <cmath>
 
 int main(){
 	int a, b;
