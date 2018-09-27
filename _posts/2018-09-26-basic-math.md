@@ -12,7 +12,7 @@ Post kali ini akan membahas beberapa algoritma dan/atau materi tentang math yang
 
 #### Greatest Common Divisor (GCD)
 Mencari FPB merupakan hal yang sering kali dilakukan pada soal-soal math dan juga sering digunakan oleh orang-orang. Berikut implementasi C++ dengan menggunakan algoritma euclid yang menggunakan sifat FPB, yaitu
-`fpb(a, b) = fpb(a, b mod a)`
+`fpb(a, b) = fpb(a, b - a)`
 
 ```c++
 int gcd(int a, int b){
@@ -27,7 +27,7 @@ int gcd(int a, int b){
 }
 ```
 
-Akan tetapi, C++ sudah memberikan STL (Standart Template Library) untuk fungsi FPB, yaitu `__gcd`, dengan penggunaan sebagai berikut.
+Akan tetapi, C++ sudah memberikan STL (Standard Template Library) untuk fungsi FPB, yaitu `__gcd`, dengan penggunaan sebagai berikut.
 
 ``` cpp
 #include <cmath>
@@ -46,11 +46,11 @@ Untuk perpangkatan dapat dilakaukan dengan menggunakan sifat bahwa
 
 A<sup>N</sup> = A * A <sup>N-1</sup>
 
-Namun, pada implementasinya algoritma tersebut memiliki kompleksitas O(N) sehingga untuk menghitung N yang besar (> 10<sup>7</sup>) dapat memakan waktu yang lama. Terdapat suatu sifat pada perpangkant yang dapat digunakan untuk mempercepat perhitungan, yaitu
+Namun, pada implementasinya algoritma tersebut memiliki kompleksitas waktu `O(N)`, sehingga untuk menghitung N yang besar (> 10<sup>7</sup>) dapat memakan waktu yang lama. Terdapat suatu sifat pada perpangkant yang dapat digunakan untuk mempercepat perhitungan, yaitu
 
 A<sup>N</sup> = (A<sup>N/2</sup>) * (A<sup>N/2</sup>)
 
-Implementasi untuk algoritma diatas akan memiliki kompleksitas O(<sup>`2`</sup>log(N)). berikut implementasinya
+Implementasi untuk algoritma diatas akan memiliki kompleksitas `O(log(N))`. berikut implementasinya
 
 ```c++
 /* versi rekursif */
@@ -78,8 +78,8 @@ int binex(int val, int exp){
 
 #### Inverse Modulo
 Inverse modulo merupakan cara untuk mencari suatu nilai `A`</sup> pada `X*A ≡ 1 (mod M)`. Syarat agar terdapat nilai `A` adalah `FPB(X, M)` haruslah 1 atau `X` dan `M` koprima. Ada terdapat 3 cara untuk menghitung nilai inverse modulo, yaitu:
-1. Extended Euclidean<br>
-perhatikan bahwa `FPB(A, M) = 1`, sehingga dapat ditulis persamaan untuk sembarang x dan y<br>
+##### 1. Extended Euclidean<br>
+perhatikan bahwa `FPB(A, M) = 1`, sehingga dapat ditulis persamaan untuk sembarang `x` dan `y`<br>
 `Ax + My = 1` <br>
 untuk mencari nilai `x` dan `y`  dapat digunakan algoritma Extended Euclidean. Berikut implementasinya
 
@@ -105,10 +105,10 @@ int inverse_modulo(int a, int m){
 
 Kompleksitas algoritma diatas adalah `O(log(N))` per pertanyaan.
 
-2. Euler Totient Function & Binary Exponentiation <br>
-Teorema Euler menyatakan bahwa jika suatu nilai A dan M koprima, maka memenuhi persamaan berikut<br>
+##### 2. Euler Totient Function & Binary Exponentiation <br>
+Teorema Euler menyatakan bahwa jika suatu nilai `A` dan `M` koprima, maka memenuhi persamaan berikut<br>
 `A`<sup>phi(`M`)</sup> ≡ `1 (mod M)` <br>
-phi(`M`) merupakan fungsi yang menghitung banyak angka dari 1 hingga M yang koprima dengan bilangan M.
+phi(`M`) merupakan fungsi yang menghitung banyak angka dari `1` hingga `M` yang koprima dengan bilangan `M`.
 
 ```c++
 int phi(int val){
@@ -142,34 +142,34 @@ int inverse_modulo(int a, int m){
 ```
 Implementasi diatas memiliki kompleksitas waktu `O(SQRT(N))` per sekali pertanyaan. Untuk menghitung menghitung inverse modulo yang banyak dengan `Q` pertanyaan, implementasi diatas dapat dioptimasi dengan menambahkan Sieve dan iterasi pada fungsi phi hanya dengan prima sehingga mengubah kompleksitasnya menjadi `O(N*log(log(N)) + Q*log(N))`
 
-3. Modular Multiplicative Inverse <br>
+##### 3. Modular Multiplicative Inverse <br>
 Perhatikan penurunan rumus berikut. <br>
-`M` mod `A` = M - floor(`M/A`) * `A` <br>
+M mod A = M - ⌊M/A⌋ * A <br>
 dengan memodulokan kedua sisi. <br>
-`M` mod `A` ≡ - floor(`M/A`) * `A` (mod `M`) <br>
-dengan mengalikan kedua sisi dengan `A`<sup>-1</sup> * (`M` mod `A`)<sup>-1</sup>, didapat <br>
-`M` mod `A` * `A`<sup>-1</sup> * (`M` mod `A`)<sup>-1</sup> ≡ - floor(`M/A`) * `A` * `A`<sup>-1</sup> * (`M` mod `A`)<sup>-1</sup> (mod `M`) <br>
-`A`<sup>-1</sup> ≡ - floor(`M/A`) * (`M` mod `A`)<sup>-1</sup> (mod `M`)
-sehingga terdapat relasi
-inverse(`A`) = - floor(`M/A`) * inverse(`M` mod `A`) (mod `M`)
+M mod A ≡ - ⌊M/A⌋ * A (mod M) <br>
+dengan mengalikan kedua sisi dengan A<sup>-1</sup> * (M mod A)<sup>-1</sup>, didapat <br>
+M mod A * A<sup>-1</sup> * (M mod A)<sup>-1</sup> ≡ - ⌊M/A⌋ * A * A<sup>-1</sup> * (M mod A)<sup>-1</sup> (mod M) <br>
+A<sup>-1</sup> ≡ - ⌊M/A⌋ * (M mod A)<sup>-1</sup> (mod M) <br>
+sehingga didapat <br>
+inverse(A) = - ⌊M/A⌋ * inverse(M mod A) (mod M)
 
 ```c++
-int inverse_modulo(int val, int mod){
+int inverse_modulo(int a, int m){
 	if(val == 1) return 1;
-	int ans = 1LL*(-mod/val)*inverse_modulo(mod%val, mod) % mod;
+	int ans = 1LL*(-m/a)*inverse_modulo(m%a, m) % m;
 	if(ans < 0)
-		ans += mod;
+		ans += m;
 	return ans;
 }
 ```
-Implementasi diatas memiliki kompleksitas O(log(mod)) per pertanyaan dan hanya bisa untuk menghitung inverse modulo dari `1` hingga `mod-1`. Untuk perhitungan inverse modulo yang banyak, dapat dioptimasi dengan dynamic programming.
+Implementasi diatas memiliki kompleksitas `O(log(m))` per pertanyaan dan hanya bisa untuk menghitung inverse modulo dari `1` hingga `m-1`. Untuk perhitungan inverse modulo yang banyak, dapat dioptimasi dengan dynamic programming.
 
-#### Sieve of Eratothenes
+#### Sieve of Eratosthenes
 Merupakan algoritma yang dapat digunakan untuk mendapatkan informasi dari 1 sampai dengan N apakah blangan tersebut prima dengan kompleksitas waktu `O(N*log(log(N)))`.
 
 Cara kerja algoritma ini adalah :
 1. Buatlah list ankga A yang berisi `2, 3, 4, ..., n-1, n`
-2. Untuk tiap angka pada indeks ke-i dari depan, hapus semua kelipatan A[i] dari list, yaitu `2*A[i], 3*A[i], 4*A[i], ...`
+2. Untuk tiap angka pada indeks ke-i, hapus semua kelipatan `A[i]` dari list, yaitu `2*A[i], 3*A[i], 4*A[i], ...`
 3. Ulangi langkah 2 sampai tidak ada angka yang bisa diiterasi.
 
 Akan lebih baik membaca [laman ini](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) terlebih dahulu untuk pemahaman yang lebih baik.
@@ -194,6 +194,7 @@ void sieve(int N){
 Waktu implementasi diatas dapat sedikit dioptimasi sehingga memiliki kompleksitas linear namum kompleksitas ruangnya bertambah.
 
 ``` cpp
+/* implementasi O(N) */
 int min_prime_factor[MAXN];
 vector<int> prime;
 
