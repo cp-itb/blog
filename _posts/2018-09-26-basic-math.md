@@ -99,7 +99,7 @@ int gcd(int a, int b, int &x, int &y) {
 int inverse_modulo(int a, int m){
 	int x, y;
 	int ans = gcd(a, m, x, y);
-	return (x%m + x)%m;
+	return (x%m + m)%m;
 }
 ```
 
