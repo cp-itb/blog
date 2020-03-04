@@ -42,7 +42,7 @@ Implementasi diatas tidak menghasilkan jawaban yang minimal.
 Untuk dapat mendepatkan jawaban optimal menggunakan dfs, kompleksitas waktu akan eksponensial.
 
 
-Hal ini dapat dapat diselesaikan dengan optimal secara linear dengan menggunakan algoritma Breadth-First Search.
+Hal ini dapat diselesaikan dengan optimal secara linear dengan menggunakan algoritma Breadth-First Search.
 
 ```c++
 vector<int> adj[MAXN]; /* adjecency list dari graf */
