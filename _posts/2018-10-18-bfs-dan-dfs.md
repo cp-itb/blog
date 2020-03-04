@@ -4,7 +4,7 @@ title:  "BFS dan DFS"
 date:   2018-10-18 21:00:00 +7
 categories: [Graph]
 author: Tony
-profpic: dasper
+profpic: default
 author-description: Informatika 2016
 ---
 
