@@ -4,7 +4,7 @@ title:  "Basic Math"
 date:   2018-09-26 21:30:00 +7
 categories: [Math]
 author: Tony
-profpic: tony
+profpic: default
 author-description: Informatika 2016
 ---
 
