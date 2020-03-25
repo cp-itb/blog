@@ -4,4 +4,4 @@ title: About Us
 ---
 
 Halo Dunia!
-Ini blog untuk komunitas CP ITB. Semoga bermanfaat.
+Ini blog untuk ***Competitive Programming Community* di ITB**. Semoga bermanfaat.

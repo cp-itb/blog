@@ -158,6 +158,6 @@ Sekian dari penjelasan tentang *web* CF ini, semoga kalian bisa aktif di CF dan 
 
 <center>
 
-~Semoga Bermanfaat~
+~ Semoga Bermanfaat ~
 
 </center>
