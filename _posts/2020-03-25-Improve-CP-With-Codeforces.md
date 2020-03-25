@@ -15,7 +15,7 @@ Hello hello guys, kali ini aku mau berbagi kalian tentang *website* terbaik untu
 CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling populer + terbanyak user.
 <center>
 
-![tampilan_CF](../assets/images/tampilan_CF.png)
+![tampilan_CF]({{ site.baseurl }}assets/images/tampilan_CF.png)
 
 Tampilan Utama CF
 
@@ -26,7 +26,7 @@ Tampilan Utama CF
 
 Salah satu hal yang membuat CodeForces bagus adalah karena seringnya berjalan kontes CP, mungkin hampir setiap minggu selalu ada. Biasanya *writer* dan *tester* dari kontes itu juga sangat *experienced* jadi soal-soal bisa dipastikan *professional*!.
 
-![tampilan_kontes](../assets/images/tampilan_kontes.png)
+![tampilan_kontes]({{ site.baseurl }}assets/images/tampilan_kontes.png)
 
 <center>Tampilan Kontes CF</center>
 
@@ -51,7 +51,7 @@ Nah lanjut ke *tips and tricks* untuk kontes di CF ini, ada beberapa hal yang ka
 Kamu terlalu sibuk karena kehidupan *chaos* di **ITB** ? Sampai tidak bisa ikut kontes di CF ? *Sans* gan, ada *virtual contest* yang bisa kamu ikuti di CF!. *Virtual contest* atau *vircon* sesuai namanya adalah *contest* yang bisa kalian ikuti sehingga seolah-olah kalian mengikuti kontes bareng dengan yang sebenarnya mengikuti. Salah satu cara melakukannya adalah ke bagian *Contest* di CodeForces, terus pilih kontes mana dan klik "*virtual participation*" seperti di gambar ini:
 <center>
 
-![virtual_contest](../assets/images/virtual_contest.png)
+![virtual_contest]({{ site.baseurl }}assets/images/virtual_contest.png)
 </center>
 
 Tentunya ada beberapa catatan mengenai *vircon* ini, *vircon* yang kalian ikuti akan menjadi otomatis *ICPC-Style*, kemudian tentunya tidak akan berpengaruh pada *rating user*.
@@ -64,7 +64,7 @@ Setiap *contest* di CF biasanya memiliki *editorial* atau pembahasannya, nah car
 
 <center>
 
-![editorialz](../assets/images/editorial_CF.png)
+![editorialz]({{ site.baseurl }}assets/images/editorial_CF.png)
 </center>
 
 
@@ -74,7 +74,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 <center>
 
-![cfpredictor](../assets/images/cfpredictorz.jpg)
+![cfpredictor]({{ site.baseurl }}assets/images/cfpredictorz.jpg)
 
 </center>
 
@@ -84,7 +84,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 <center>
 
-![rating_cf](../assets/images/rating_CF.png)
+![rating_cf]({{ site.baseurl }}assets/images/rating_CF.png)
 
 </center>
 
@@ -92,7 +92,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 <center>
 
-![tourist_euy](../assets/images/tourist_euy.png)
+![tourist_euy]({{ site.baseurl }}assets/images/tourist_euy.png)
 
 </center>
 
@@ -100,7 +100,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 <center>
 
-![rating_euy](../assets/images/ratings_euy.png)
+![rating_euy]({{ site.baseurl }}assets/images/ratings_euy.png)
 
 </center>
 
@@ -112,7 +112,7 @@ Contohnya di gambar itu, menunjukkan *rank user* saat ini (yang masih aktif sela
 
 <center>
 
-![probset](../assets/images/problemset_CF.png)
+![probset]({{ site.baseurl }}assets/images/problemset_CF.png)
 
 </center>
 
@@ -129,7 +129,7 @@ Bisa dilihat pada gambar tersebut, setiap soal memiliki *tag* materi, misal *bru
 
 <center>
 
-![gym_CF](../assets/images/gym_CF.png)
+![gym_CF]({{ site.baseurl }}assets/images/gym_CF.png)
 
 </center>
 
@@ -137,7 +137,7 @@ Kalian bisa mengikuti salah satu kontes tersebut dengan klik *virtual participat
 
 <center>
 
-![coach](../assets/images/Coach_rights.png)
+![coach]({{ site.baseurl }}assets/images/Coach_rights.png)
 
 </center>
 
@@ -147,7 +147,7 @@ CodeForces ini penuh dengan *user* yang berbagi ilmu dan pengalamannya, kalian b
 
 <center>
 
-![blog_CF](../assets/images/blog_CF.png)
+![blog_CF]({{ site.baseurl }}assets/images/blog_CF.png)
 
 </center>
 
@@ -158,6 +158,6 @@ Sekian dari penjelasan tentang *web* CF ini, semoga kalian bisa aktif di CF dan 
 
 <center>
 
-~ Semoga Bermanfaat ~
+~ **Semoga Bermanfaat** ~
 
 </center>
