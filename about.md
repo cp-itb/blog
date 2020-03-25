@@ -3,4 +3,5 @@ layout: page
 title: About Us
 ---
 
-Halo. Ini blog komunitas CP ITB. Semoga bermanfaat.
+Halo Dunia!
+Ini blog untuk komunitas CP ITB. Semoga bermanfaat.
