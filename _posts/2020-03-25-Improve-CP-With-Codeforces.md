@@ -13,22 +13,16 @@ Hello hello guys, kali ini aku mau berbagi kalian tentang *website* terbaik untu
 ### CodeForces
 
 CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling populer + terbanyak user.
-<center>
 
 ![tampilan_CF]({{ site.baseurl }}assets/images/tampilan_CF.png)
 
-Tampilan Utama CF
-
 (btw kebetulan logo CF tersebut sedang pake masker untuk menghindari *coronavirus*)
-</center>
 
 ### Contest in Codeforces
 
 Salah satu hal yang membuat CodeForces bagus adalah karena seringnya berjalan kontes CP, mungkin hampir setiap minggu selalu ada. Biasanya *writer* dan *tester* dari kontes itu juga sangat *experienced* jadi soal-soal bisa dipastikan *professional*!.
 
 ![tampilan_kontes]({{ site.baseurl }}assets/images/tampilan_kontes.png)
-
-<center>Tampilan Kontes CF</center>
 
 Nah, kontes di CF ini dibagi menjadi beberapa divisi sebagai berikut:
 - **Div.3** : Kontes ini diperuntukkan bagi user yang memiliki rating $$\leq 1599$$ (penjelasan *rating* akan dijelaskan nanti).
@@ -49,10 +43,10 @@ Nah lanjut ke *tips and tricks* untuk kontes di CF ini, ada beberapa hal yang ka
 #### Virtual Contest
 
 Kamu terlalu sibuk karena kehidupan *chaos* di **ITB** ? Sampai tidak bisa ikut kontes di CF ? *Sans* gan, ada *virtual contest* yang bisa kamu ikuti di CF!. *Virtual contest* atau *vircon* sesuai namanya adalah *contest* yang bisa kalian ikuti sehingga seolah-olah kalian mengikuti kontes bareng dengan yang sebenarnya mengikuti. Salah satu cara melakukannya adalah ke bagian *Contest* di CodeForces, terus pilih kontes mana dan klik "*virtual participation*" seperti di gambar ini:
-<center>
+
 
 ![virtual_contest]({{ site.baseurl }}assets/images/virtual_contest.png)
-</center>
+
 
 Tentunya ada beberapa catatan mengenai *vircon* ini, *vircon* yang kalian ikuti akan menjadi otomatis *ICPC-Style*, kemudian tentunya tidak akan berpengaruh pada *rating user*.
 
@@ -62,47 +56,47 @@ Nah dengan *vircon* ini, kalian bisa menghitung berapa *rating-change* kalian di
 
 Setiap *contest* di CF biasanya memiliki *editorial* atau pembahasannya, nah cara liatnya biasanya harus *enter* dulu kontesnya habis itu dibagian pojok kanan bawah ada **Contest Materials** terus tinggal klik deh link **Tutorial**-nya.
 
-<center>
+
 
 ![editorialz]({{ site.baseurl }}assets/images/editorial_CF.png)
-</center>
+
 
 
 #### Rating Predictor in Contest
 
 Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extension **[CF-Predictor](https://chrome.google.com/webstore/detail/cf-predictor/ocfloejijfhhkkdmheodbaanephbnfhn?hl=en)**, dengan *extension* ini kalian bisa liat secara *live*, perubahan *rating* kalian.
 
-<center>
+
 
 ![cfpredictor]({{ site.baseurl }}assets/images/cfpredictorz.jpg)
 
-</center>
+
 
 ### Rating in CodeForces
 
 *Rating* di CodeForces ini basically suatu sistem *rank* untuk *user* di CodeForces, *well* bisa dibilang *rating* ini menentukan seberapa *experienced*-nya suatu orang, lebih jelasnya bisa dilihat tabel berikut:
 
-<center>
+
 
 ![rating_cf]({{ site.baseurl }}assets/images/rating_CF.png)
 
-</center>
+
 
 *Rating* ini berubah ketika kita mengikuti *rated contest*, lebih baik *rank*-nya kemungkinan naik rating lebih besar juga. Tentunya orang yang memiliki *rating* tinggi akan mempunyai *expected rank* yang lebih tinggi, jadi harus lebih bagus performanya di kontes. Setiap *rating* changes terjadi, akan ada visualisasi graph pada profile *user* tersebut. Contohnya kayak di *profile* mas **tourist** ini.
 
-<center>
+
 
 ![tourist_euy]({{ site.baseurl }}assets/images/tourist_euy.png)
 
-</center>
+
 
 *Rating* ini seperti yang disebutkan sebelumnya, menentukan kalian ada di *rank* berapa pada CodeForces.
 
-<center>
+
 
 ![rating_euy]({{ site.baseurl }}assets/images/ratings_euy.png)
 
-</center>
+
 
 Contohnya di gambar itu, menunjukkan *rank user* saat ini (yang masih aktif selama $$6$$ bulan yang baru ini) di gambar tersebut ada **#** yang menunjukkan berapa kali *user* kontes dan disampingnya ada *rating user* tersebut. Kalian juga bisa liat *rating* tertinggi di Indonesia dengan *filter Country*, atau rating di *ITB* dengan *filter Organizations*. 
 
@@ -110,11 +104,11 @@ Contohnya di gambar itu, menunjukkan *rank user* saat ini (yang masih aktif sela
 
 *Problemset* di CF ini adalah *basically* kumpulan soal-soal CF yang pernah ada di *contest*, biasanya ini digunakan untuk *practice*.
 
-<center>
+
 
 ![probset]({{ site.baseurl }}assets/images/problemset_CF.png)
 
-</center>
+
 
 Bisa dilihat pada gambar tersebut, setiap soal memiliki *tag* materi, misal *brute force*, terus ada gambar bintang yang artinya kalian bisa masukin soal itu ke list *favourite problems* kalian, ada juga gambar *petir* yang menunjukkan soal itu setara dengan *rating* berapa, lalu gambar orang dikanan itu menunjukkan berapa banyak yang telah berhasil *solve* soal itu. Soal tersebut akan berubah warna *hijau* jika kalian berhasil *solve*, dan merah jika gagal.
 
@@ -127,29 +121,29 @@ Bisa dilihat pada gambar tersebut, setiap soal memiliki *tag* materi, misal *bru
 
 *Gym* di CodeForces ini biasanya digunakan untuk latihan *team*, biasanya *Gym* ini berisi kontes-kontes luar dan soal *training*, ada soal dari **ICPC Europe** misalnya, ada juga kontes-kontes nasional dari negara lain.
 
-<center>
+
 
 ![gym_CF]({{ site.baseurl }}assets/images/gym_CF.png)
 
-</center>
+
 
 Kalian bisa mengikuti salah satu kontes tersebut dengan klik *virtual participation* lalu bisa mengerjakan sendiri atau dengan *team* (jika punya). Di *Gym* ini ada berapa bintang untuk setiap kontes yang menunjukkan *kesusahan* kontes tersebut, lalu kalian bisa juga *filter training*. Nah, ada hal yang banyak orang tidak tau nih, jika kalian memiliki *rating* cukup tinggi, kalian bisa menjadi *Coach*, nanti akan muncul **Coach rights** kek gini.
 
-<center>
+
 
 ![coach]({{ site.baseurl }}assets/images/Coach_rights.png)
 
-</center>
+
 
 ### Blog in CodeForces
 
 CodeForces ini penuh dengan *user* yang berbagi ilmu dan pengalamannya, kalian bisa liat-liat sendiri lah ya, ada banyak *tutorial* yang kalian bisa baca dari blog-blog CF ini. Ada juga yang berisi motivasi dan strategi belajar CP, contohnya **[blog](https://codeforces.com/blog/entry/66909)** dari **user E869120 - masataka yoneda** ini (aku *recommend* kalian buat baca ya btw):
 
-<center>
+
 
 ![blog_CF]({{ site.baseurl }}assets/images/blog_CF.png)
 
-</center>
+
 
 
 ### Akhir Kata
