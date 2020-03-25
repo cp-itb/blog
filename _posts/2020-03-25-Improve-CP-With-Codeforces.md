@@ -8,7 +8,7 @@ profpic: mhasan01
 author-description: Ketua Komunitas CP ITB 2020/2021
 ---
 
-Hello hello guys, kali ini aku mau berbagi kalian tentang *website* terbaik untuk belajar *Competitive Programming* yaitu web **[CodeForces (CF)](https://codeforces.com/)**. Di blog yang lain, aku akan jelaskan strategi aku buat belajar CP di CF ini. Blog ini *basically* akan menjelaskan tentang *web* CF saja.
+Hello hello guys, kali ini aku mau berbagi kalian penjelasan tentang *website* terbaik untuk belajar *Competitive Programming* yaitu web **[CodeForces (CF)](https://codeforces.com/)**. Di blog yang lain, aku akan jelaskan strategi aku buat belajar CP di CF ini. Blog ini *basically* akan menjelaskan tentang *web* CF saja.
 
 ### CodeForces
 
@@ -150,8 +150,4 @@ CodeForces ini penuh dengan *user* yang berbagi ilmu dan pengalamannya, kalian b
 
 Sekian dari penjelasan tentang *web* CF ini, semoga kalian bisa aktif di CF dan berkembang skill CP-nya. Tentunya kalian bisa belajar di *web* lain juga sih ya seperti **[TLX](https://tlx.toki.id/)** yang dibuat oleh TOKI.
 
-<center>
-
-~ **Semoga Bermanfaat** ~
-
-</center>
+**Semoga Bermanfaat**
