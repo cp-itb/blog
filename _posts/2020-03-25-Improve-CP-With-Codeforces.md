@@ -8,15 +8,15 @@ profpic: mhasan01
 author-description: Ketua Komunitas CP ITB 2020/2021
 ---
 
-Hello hello guys, kali ini aku mau berbagi kalian penjelasan tentang *website* terbaik untuk belajar *Competitive Programming* yaitu web **[CodeForces (CF)](https://codeforces.com/)**. Di blog yang lain, aku akan jelaskan strategi aku buat belajar CP di CF ini. Blog ini *basically* akan menjelaskan tentang *web* CF saja.
+Hello hello guys, kali ini aku mau berbagi kalian penjelasan tentang salah satu *website* terbaik untuk belajar *Competitive Programming* yaitu web **[CodeForces (CF)](https://codeforces.com/)**. Di blog yang lain, aku akan jelaskan strategi aku buat belajar CP di CF ini. Blog ini *basically* akan menjelaskan tentang *web* CF saja.
 
 ### CodeForces
 
-CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling populer + terbanyak user.
+CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling populer + terbanyak user, dibuat oleh sekumpulan kelompok *Competitive Programmer* dari **ITMO University** yang dipimpin **[Mike Mirzayanov](https://codeforces.com/profile/MikeMirzayanov)**.
 
 ![tampilan_CF]({{ site.baseurl }}assets/images/tampilan_CF.png)
 
-(btw kebetulan logo CF tersebut sedang pake masker untuk menghindari *coronavirus*)
+(btw kebetulan logo CF tersebut sedang pake masker untuk menghindari *coronavirus*, dan *Code* sama *Forces*-nya lagi melakukan *Social Distancing*)
 
 ### Contest in Codeforces
 
@@ -98,7 +98,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 
 
-Contohnya di gambar itu, menunjukkan *rank user* saat ini (yang masih aktif selama $$6$$ bulan yang baru ini) di gambar tersebut ada **#** yang menunjukkan berapa kali *user* kontes dan disampingnya ada *rating user* tersebut. Kalian juga bisa liat *rating* tertinggi di Indonesia dengan *filter Country*, atau rating di *ITB* dengan *filter Organizations*. 
+Nah gambar itu menunjukkan *rank user* saat ini (yang masih aktif selama $$6$$ bulan yang baru ini), di gambar tersebut ada **#** yang menunjukkan berapa kali *user* kontes dan disampingnya ada *rating user* tersebut. Kalian juga bisa liat *rating* tertinggi di Indonesia dengan *filter Country*, atau rating di *ITB* dengan *filter Organizations*. 
 
 ### Problemset in CodeForces
 
@@ -148,6 +148,6 @@ CodeForces ini penuh dengan *user* yang berbagi ilmu dan pengalamannya, kalian b
 
 ### Akhir Kata
 
-Sekian dari penjelasan tentang *web* CF ini, semoga kalian bisa aktif di CF dan berkembang skill CP-nya. Tentunya kalian bisa belajar di *web* lain juga sih ya seperti **[TLX](https://tlx.toki.id/)** yang dibuat oleh TOKI.
+Sekian dari penjelasan tentang *web* CF ini, semoga kalian bisa aktif di CF dan berkembang skill CP-nya. Tentunya kalian bisa belajar di *web* lain juga sih ya seperti **[TLX](https://tlx.toki.id/)**, **[AtCoder](https://atcoder.jp/)**, **[CodeChef](http://codechef.com/)**, **[HackerRank](http://hackerrank.com/)**, **[cp-algorithms](https://cp-algorithms.com/)**, dll.
 
 **Semoga Bermanfaat**
