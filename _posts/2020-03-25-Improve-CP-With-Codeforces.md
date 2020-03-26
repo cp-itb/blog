@@ -2,7 +2,7 @@
 layout: post
 title:  "Improve your CP with CodeForces"
 date:   2020-03-25 19:00:00 +7
-categories: [Tips and Tricks]
+categories: [CodeForces]
 author: Muhammad Hasan
 profpic: mhasan01
 author-description: Ketua Komunitas CP ITB 2020/2021
@@ -18,7 +18,7 @@ CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling p
 
 (btw kebetulan logo CF tersebut sedang pake masker untuk menghindari *coronavirus*, dan *Code* sama *Forces*-nya lagi melakukan *Social Distancing*)
 
-### Contest in Codeforces
+### Contest in CodeForces
 
 Salah satu hal yang membuat CodeForces bagus adalah karena seringnya berjalan kontes CP, mungkin hampir setiap minggu selalu ada. Biasanya *writer* dan *tester* dari kontes itu juga sangat *experienced* jadi soal-soal bisa dipastikan *professional*!.
 
