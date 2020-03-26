@@ -12,7 +12,7 @@ Hello hello guys, kali ini aku mau berbagi kalian penjelasan tentang salah satu 
 
 ### CodeForces
 
-CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling populer + terbanyak user, dibuat oleh sekumpulan kelompok *Competitive Programmer* dari **ITMO University** yang dipimpin **[Mike Mirzayanov](https://codeforces.com/profile/MikeMirzayanov)**.
+**CodeForces** adalah salah satu web untuk belajar CP dan bisa dibilang web paling populer + terbanyak user, dibuat oleh sekumpulan kelompok *Competitive Programmer* dari **ITMO University** yang dipimpin **[Mike Mirzayanov](https://codeforces.com/profile/MikeMirzayanov)**.
 
 ![tampilan_CF]({{ site.baseurl }}assets/images/tampilan_CF.png)
 
@@ -20,7 +20,7 @@ CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling p
 
 ### Contest in CodeForces
 
-Salah satu hal yang membuat CodeForces bagus adalah karena seringnya berjalan kontes CP, mungkin hampir setiap minggu selalu ada. Biasanya *writer* dan *tester* dari kontes itu juga sangat *experienced* jadi soal-soal bisa dipastikan *professional*!
+Salah satu poin baik dari CodeForces adalah seringnya berjalan kontes CP, mungkin hampir setiap minggu selalu ada. Biasanya *writers* dan *testers* dari kontes itu juga sangat *experienced* jadi soal-soal bisa dipastikan *professional*!
 
 ![tampilan_kontes]({{ site.baseurl }}assets/images/tampilan_kontes.png)
 
@@ -42,7 +42,7 @@ Nah lanjut ke *tips and tricks* untuk kontes di CF ini, ada beberapa hal yang ka
 
 #### Virtual Contest
 
-Kamu terlalu sibuk karena kehidupan *chaos* di **ITB** ? Sampai tidak bisa ikut kontes di CF ? *Sans* gan, ada *virtual contest* yang bisa kamu ikuti di CF! *Virtual contest* atau *vircon* sesuai namanya adalah *contest* yang bisa kalian ikuti sehingga seolah-olah kalian mengikuti kontes bareng dengan yang sebenarnya mengikuti. Salah satu cara melakukannya adalah ke bagian *Contest* di CodeForces, terus pilih kontes mana dan klik "*virtual participation*" seperti di gambar ini:
+Kamu terlalu sibuk karena kehidupan *chaos* di **ITB** ? Sampai tidak bisa ikut kontes di CF ? *Sans* gan, ada *virtual contest* yang bisa kamu ikuti di CF! ***Virtual contest*** atau *vircon* sesuai namanya adalah *contest* yang bisa kalian ikuti sehingga seolah-olah kalian mengikuti kontes bareng dengan yang sebenarnya mengikuti. Salah satu cara melakukannya adalah ke bagian *Contest* di CodeForces, terus pilih kontes mana dan klik "*virtual participation*" seperti di gambar ini:
 
 
 ![virtual_contest]({{ site.baseurl }}assets/images/virtual_contest.png)
@@ -60,7 +60,7 @@ Setiap *contest* di CF biasanya memiliki *editorial* atau pembahasannya, nah car
 
 ![editorialz]({{ site.baseurl }}assets/images/editorial_CF.png)
 
-Nanti biasanya link akan melaukan *redirect* ke *blog editorial* kek gini:
+Nanti biasanya link akan melakukan *redirect* ke *blog editorial* kek gini:
 
 ![editorialblog]({{ site.baseurl }}assets/images/editorial_blog.png)
 
@@ -78,7 +78,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 ### Rating in CodeForces
 
-*Rating* di CodeForces ini basically suatu sistem *rank* untuk *user* di CodeForces, *well* bisa dibilang *rating* ini menentukan seberapa *experienced*-nya suatu orang, lebih jelasnya bisa dilihat tabel berikut:
+***Rating*** di CodeForces ini basically suatu sistem *rank* untuk *user* di CodeForces, *well* bisa dibilang *rating* ini menentukan seberapa *experienced*-nya suatu orang, lebih jelasnya bisa dilihat tabel berikut:
 
 
 
@@ -106,7 +106,7 @@ Nah gambar itu menunjukkan *rank user* saat ini (yang masih aktif selama $$6$$ b
 
 ### Problemset in CodeForces
 
-*Problemset* di CF ini adalah *basically* kumpulan soal-soal CF yang pernah ada di *contest*, biasanya ini digunakan untuk *practice*.
+***Problemset*** di CF ini adalah *basically* kumpulan soal-soal CF yang pernah ada di *contest*, biasanya ini digunakan untuk *practice*.
 
 
 
@@ -123,7 +123,7 @@ Bisa dilihat pada gambar tersebut, setiap soal memiliki *tag* materi, misal *bru
 
 ### Gym in CodeForces
 
-*Gym* di CodeForces ini biasanya digunakan untuk latihan *team*, biasanya *Gym* ini berisi kontes-kontes luar dan soal *training*, ada soal dari **ICPC Europe** misalnya, ada juga kontes-kontes nasional dari negara lain.
+***Gym*** di CodeForces ini biasanya digunakan untuk latihan *team*, biasanya *Gym* ini berisi kontes-kontes luar dan soal *training*, ada soal dari **ICPC Europe** misalnya, ada juga kontes-kontes nasional dari negara lain.
 
 
 
