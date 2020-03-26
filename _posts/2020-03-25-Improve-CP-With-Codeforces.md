@@ -20,7 +20,7 @@ CodeForces adalah salah satu web untuk belajar CP dan bisa dibilang web paling p
 
 ### Contest in CodeForces
 
-Salah satu hal yang membuat CodeForces bagus adalah karena seringnya berjalan kontes CP, mungkin hampir setiap minggu selalu ada. Biasanya *writer* dan *tester* dari kontes itu juga sangat *experienced* jadi soal-soal bisa dipastikan *professional*!.
+Salah satu hal yang membuat CodeForces bagus adalah karena seringnya berjalan kontes CP, mungkin hampir setiap minggu selalu ada. Biasanya *writer* dan *tester* dari kontes itu juga sangat *experienced* jadi soal-soal bisa dipastikan *professional*!
 
 ![tampilan_kontes]({{ site.baseurl }}assets/images/tampilan_kontes.png)
 
@@ -42,7 +42,7 @@ Nah lanjut ke *tips and tricks* untuk kontes di CF ini, ada beberapa hal yang ka
 
 #### Virtual Contest
 
-Kamu terlalu sibuk karena kehidupan *chaos* di **ITB** ? Sampai tidak bisa ikut kontes di CF ? *Sans* gan, ada *virtual contest* yang bisa kamu ikuti di CF!. *Virtual contest* atau *vircon* sesuai namanya adalah *contest* yang bisa kalian ikuti sehingga seolah-olah kalian mengikuti kontes bareng dengan yang sebenarnya mengikuti. Salah satu cara melakukannya adalah ke bagian *Contest* di CodeForces, terus pilih kontes mana dan klik "*virtual participation*" seperti di gambar ini:
+Kamu terlalu sibuk karena kehidupan *chaos* di **ITB** ? Sampai tidak bisa ikut kontes di CF ? *Sans* gan, ada *virtual contest* yang bisa kamu ikuti di CF! *Virtual contest* atau *vircon* sesuai namanya adalah *contest* yang bisa kalian ikuti sehingga seolah-olah kalian mengikuti kontes bareng dengan yang sebenarnya mengikuti. Salah satu cara melakukannya adalah ke bagian *Contest* di CodeForces, terus pilih kontes mana dan klik "*virtual participation*" seperti di gambar ini:
 
 
 ![virtual_contest]({{ site.baseurl }}assets/images/virtual_contest.png)
@@ -60,7 +60,11 @@ Setiap *contest* di CF biasanya memiliki *editorial* atau pembahasannya, nah car
 
 ![editorialz]({{ site.baseurl }}assets/images/editorial_CF.png)
 
+Nanti biasanya link akan melaukan *redirect* ke *blog editorial* kek gini:
 
+![editorialblog]({{ site.baseurl }}assets/images/editorial_blog.png)
+
+*Tips and Tricks* : Coba-coba cek *comment* di editorial itu, biasanya bisa ada penjelasan soal yang lebih baik dari penjelasan editorial itu sendiri.
 
 #### Rating Predictor in Contest
 
@@ -80,7 +84,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 ![rating_cf]({{ site.baseurl }}assets/images/rating_CF.png)
 
-
+(**Catatan** : Sekarang seharusnya **violet** $$1900-2099$$ dan **master** $$2100-2299$$)
 
 *Rating* ini berubah ketika kita mengikuti *rated contest*, lebih baik *rank*-nya kemungkinan naik rating lebih besar juga. Tentunya orang yang memiliki *rating* tinggi akan mempunyai *expected rank* yang lebih tinggi, jadi harus lebih bagus performanya di kontes. Setiap *rating* changes terjadi, akan ada visualisasi graph pada profile *user* tersebut. Contohnya kayak di *profile* mas **tourist** ini.
 
