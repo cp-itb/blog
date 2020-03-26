@@ -64,7 +64,7 @@ Nanti biasanya link akan melakukan *redirect* ke *blog editorial* kek gini:
 
 ![editorialblog]({{ site.baseurl }}assets/images/editorial_blog.png)
 
-*Tips and Tricks* : Coba-coba cek *comment* di editorial itu, biasanya bisa ada penjelasan soal yang lebih baik dari penjelasan editorial itu sendiri.
+*Tips and Tricks* : Coba-coba cek *comment* di *editorial*, biasanya bisa ada penjelasan soal yang lebih baik dari penjelasan editorial itu sendiri.
 
 #### Rating Predictor in Contest
 
@@ -84,7 +84,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 ![rating_cf]({{ site.baseurl }}assets/images/rating_CF.png)
 
-(**Catatan** : Sekarang seharusnya **violet** $$1900-2099$$ dan **master** $$2100-2299$$)
+(**Catatan** : Sekarang seharusnya **Candidate Master** $$1900-2099$$, **master** $$2100-2299$$, **Legendary Grandmaster** $$\geq 3000$$)
 
 *Rating* ini berubah ketika kita mengikuti *rated contest*, lebih baik *rank*-nya kemungkinan naik rating lebih besar juga. Tentunya orang yang memiliki *rating* tinggi akan mempunyai *expected rank* yang lebih tinggi, jadi harus lebih bagus performanya di kontes. Setiap *rating* changes terjadi, akan ada visualisasi graph pada profile *user* tersebut. Contohnya kayak di *profile* mas **tourist** ini.
 
@@ -102,7 +102,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 
 
-Nah gambar itu menunjukkan *rank user* saat ini (yang masih aktif selama $$6$$ bulan yang baru ini), di gambar tersebut ada **#** yang menunjukkan berapa kali *user* kontes dan disampingnya ada *rating user* tersebut. Kalian juga bisa liat *rating* tertinggi di Indonesia dengan *filter Country*, atau rating di *ITB* dengan *filter Organizations*. 
+Contohnya gambar diatas menunjukkan *rank user* saat ini (yang masih aktif selama $$6$$ bulan yang baru ini), di gambar tersebut ada **#** yang menunjukkan berapa kali *user* kontes dan disampingnya ada *rating user* tersebut. Kalian juga bisa liat *rating* tertinggi di Indonesia dengan *filter Country*, atau rating di *ITB* dengan *filter Organizations*. 
 
 ### Problemset in CodeForces
 
