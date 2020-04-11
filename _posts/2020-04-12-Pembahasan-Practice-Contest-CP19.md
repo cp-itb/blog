@@ -8,7 +8,7 @@ profpic: mhasan01
 author-description: Ketua Komunitas CP ITB 2020/2021
 ---
 
-Bagaimana gan, setelah menjalankan kontes latihan seminggu, apakah ada perkembangan? Bisa dibilang kontes kali ini soal-soalnya cukup klasik, sengaja sih memang biar ditekankan dasar-dasarnya. Semoga di blog editorial kali ini, kalian bisa mulai paham sama soal yang kebingungan yaa. Soal-soal bisa dilihat di link ini [Soal Practice Contest CP19](https://drive.google.com/drive/u/0/folders/14PuOR48FGHxu8Jf4p-_2zaX94ePWx2mv)
+Bagaimana gan, setelah menjalankan kontes latihan seminggu, apakah ada perkembangan? Bisa dibilang kontes kali ini soal-soalnya cukup klasik, sengaja sih memang biar ditekankan dasar-dasarnya. Semoga di blog editorial kali ini, kalian bisa mulai paham sama soal yang kebingungan yaa. Soal-soal bisa dilihat di link ini [Soal Practice Contest CP19](https://drive.google.com/drive/u/0/folders/14PuOR48FGHxu8Jf4p-_2zaX94ePWx2mv).
 
 ### Kilas Balik Practice Contest CP19
 
@@ -149,6 +149,8 @@ int main () {
 
 </details>
 
+<br>
+
 ### Imba Berbaris V1
 
 Solusi kali ini cukup *straightforward* saja, kita tinggal bruteforce dengan menggunakan for loop dua kali
@@ -192,9 +194,11 @@ int main() {
 
 </details>
 
+<br>
+
 ### Imba Berbaris V2
 
-Kita tidak bisa menggunakan Bruteforce kali ini. Sehingga diperlukan data struktur tertentu. Untuk menyelesaikan soal ini kita bisa gunakan **[Segment Tree](https://cp-algorithms.com/data_structures/segment_tree.html)** atau dengan **[Fenwick Tree/BIT](https://cp-algorithms.com/data_structures/fenwick.html)**. Di kode solusi kali ini, kita akan gunakan BIT saja karena lebih mudah diimplementasi. Untuk setiap query kita lakukan *get* untuk mencari nilai yang kurang dari sama dengan `M[i]`, setelah itu baru kita update BIT kita dengan *add* `M[i]`.
+Kita tidak bisa menggunakan Bruteforce kali ini. Sehingga diperlukan data struktur tertentu. Untuk menyelesaikan soal ini kita bisa gunakan **[Segment Tree](https://cp-algorithms.com/data_structures/segment_tree.html)** atau dengan **[Fenwick Tree/BIT](https://cp-algorithms.com/data_structures/fenwick.html)**. Di kode solusi kali ini, kita akan gunakan BIT saja karena lebih mudah diimplementasi. Untuk setiap query kita lakukan *get* untuk mencari nilai yang kurang dari sama dengan $$ M_i $$, setelah itu baru kita update BIT kita dengan *add* $$ M_i $$.
 
 <details><summary><b>Kode Solusi:</b></summary>
 
