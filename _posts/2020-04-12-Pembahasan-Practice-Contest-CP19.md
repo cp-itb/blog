@@ -13,11 +13,11 @@ Bagaimana gan, setelah menjalankan kontes latihan seminggu, apakah ada perkemban
 ### Kilas Balik Practice Contest CP19
 
 Selamat kepada **Top Scorer** Practice Contest kali ini:
-1. wibisono (Jauhar Wibisono) - $$ 15 $$ poin
-2. f_aziz14 (Faris Aziz) - $$ 14 $$ poin
-3. integer_overflow (Marcello Faria) - $$ 11 $$ poin
-4. aaa161 (Rehagana Sembiring) - $$ 6 $$ poin
-5. Marrrcy (Josep Marcello) - $$ 6 $$ poin
+1. **wibisono** (Jauhar Wibisono) - $$ 15 $$ poin
+2. **f_aziz14** (Faris Aziz) - $$ 14 $$ poin
+3. **integer_overflow** (Marcello Faria) - $$ 13 $$ poin
+4. **aaa161** (Rehagana Sembiring) - $$ 6 $$ poin
+5. **Marrrcy** (Josep Marcello) - $$ 6 $$ poin
 
 Scoreboard setelah difinalisasi:
 
@@ -430,7 +430,7 @@ int main() {
 
 Soal ini cukup standar, kita hanya perlu melakukan DFS atau BFS dimulai dari **root** (pada kasus ini **root** = $$ 1 $$), lalu pada *traversal* tersebut kita catat jarak *root* ke node. Disini kita gunakan saja DFS, salah satu implementasi kodenya dapat dilihat di kode solusi.
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
@@ -485,7 +485,7 @@ $$ distance(u, v) = distance(u) + distance(v) - 2 \times distance(lca(u, v)) $$
 
 Implementasi **LCA** termudah (menurut aku) adalah dengan menggunakan teknik [**Binary Lifting**](https://cp-algorithms.com/graph/lca_binary_lifting.html).
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
@@ -568,7 +568,7 @@ int main() {
 
 Perhatikan bahwa yang penting adalah posisi kolom setiap topping. Solusinya cukup mudah, untuk setiap kolom yang pilih, kita hitung ada berapa banyak topping di kolom sebelah kiri dan di kolom sebelah kanan kemudian hitung selisihnya. Dari semua kemungkinan pemilihan kolom itu, kita ambil selisih yang minimum. Tentunya mencoba semua kemungkinan lalu Brutefoce tidak baik, ini akan menghasilkan waktu $$ O (N^2) $$. Cara yang baik adalah dengan **Precompute Prefix Sum** dan **Suffix Sum**. Sehingga total kompleksitas menjadi $$ O (N) $$
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
@@ -615,7 +615,7 @@ int main () {
 
 Solusi ini cukup *straightforward* karena *constraint* yang kecil, kita tinggal implementasikan saja apa yang disuruh soal.
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
@@ -670,7 +670,7 @@ int main() {
 
 Kali ini kita tidak bisa melakukan Bruteforce, maka kita perlu suatu data struktur. Soal-soal seperti ini seringkali di selesaikan dengan [**Segment Tree**](https://cp-algorithms.com/data_structures/segment_tree.html). Untuk implementasinya bisa dilihat di kode solusi ini.
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
@@ -773,7 +773,7 @@ int main() {
 
 Kali ini kita butuh *update range*, maka kita perlu data struktur lebih advance. Kita bisa selesaikan soal ini dengan **[Segment Tree Lazy Propagation](https://cp-algorithms.com/data_structures/segment_tree.html)**. Untuk implementasinya bisa dilihat di kode solusi ini.
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
@@ -909,7 +909,7 @@ int main() {
 
 Soal ini dapat diselesaikan dengan BFS/DFS, namun *intended solution*-nya adalah dengan menggunakan [**DSU**](https://cp-algorithms.com/data_structures/disjoint_set_union.html) (Disjoint Set Union).
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
@@ -969,7 +969,7 @@ int main () {
 
 Soal ini cukup klasik, kita tinggal gunakan **[Kadane's Algorithm](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)**. Link penjelasan yang lebih baik ada di sini [**Subarray with maximum sum**](https://cp-algorithms.com/others/maximum_average_segment.html).
 
-****Kode Solusi:****
+**Kode Solusi:**
 
 ```c++
 /**
