@@ -425,10 +425,12 @@ const long long M = 1e9 + 7;
 long long n;
 int q;
 
+matrix identitas = {%{{1, 0} , {0, 1}}%};
+matrix m = {%{{0, 1} , {1, 1}}%};
 
 matrix multiply(matrix& x, matrix& y) {
     matrix ret(sz, vector<long long>(sz, 0));
-    // atau ret = {{0, 0}, {0, 0}} pada kasus ini
+    // atau ret = {%{{0, 0}, {0, 0}}%} pada kasus ini
     for (int i = 0; i < sz; i++) {
         for (int j = 0; j < sz; j++) {
             for (int k = 0; k < sz; k++) {
