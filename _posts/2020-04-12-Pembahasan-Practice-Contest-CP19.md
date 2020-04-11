@@ -10,40 +10,6 @@ author-description: Ketua Komunitas CP ITB 2020/2021
 
 Bagaimana gan, setelah menjalankan kontes latihan seminggu, apakah ada perkembangan? Bisa dibilang kontes kali ini soal-soalnya cukup klasik, sengaja sih memang biar ditekankan dasar-dasarnya. Semoga di blog editorial kali ini, kalian bisa mulai paham sama soal yang kebingungan yaa. Soal-soal bisa dilihat di link ini [Soal Practice Contest CP19](https://drive.google.com/drive/u/0/folders/14PuOR48FGHxu8Jf4p-_2zaX94ePWx2mv)
 
-## Daftar Isi
-
-- [Kilas Balik Practice Contest CP19](#Kilas-Balik-Practice-Contest-CP19)
-
-- [Cegah Penyebaran Corona](#Cegah-Penyebaran-Corona)
-
-- [Imba Berbaris (V1)](#Imba-Berbaris-V1)
-
-- [Imba Berbaris (V2)](#Imba-Berbaris-V2)
-
-- [Imba Berbaris (V3)](#Imba-Berbaris-V3)
-
-- [Naik Tangga (V1)](#Naik-Tangga-V1)
-
-- [Naik Tangga (V2)](#Naik-Tangga-V2)
-
-- [Penyebaran Corona (V1)](#Penyebaran-Corona-V1)
-
-- [Penyebaran Corona (V2)](#Penyebaran-Corona-V2)
-
-- [Potong Kue](#Potong-Kue)
-
-- [Penyiraman Tanaman (V1)](#Penyiraman-Tanaman-V1)
-
-- [Penyiraman Tanaman (V2)](#Penyiraman-Tanaman-V2)
-
-- [Penyiraman Tanaman (V3)](#Penyiraman-Tanaman-V3)
-
-- [Tugas Kelompok](#Tugas-Kelompok)
-
-- [Tugas Kecil Mufraswid](#Tugas-Kecil-Mufraswid)
-
-- [Tugas Besar Mufraswid](#Tugas-Besar-Mufraswid)
-
 ### Kilas Balik Practice Contest CP19
 
 Selamat kepada **Top Scorer** Practice Contest kali ini:
@@ -75,8 +41,9 @@ Selain itu, ada kasus khusus yaitu bila $$ k $$ bernilai $$ 1 $$ (kira - kira ke
 
 <details><summary><b>Kode Solusi:</b></summary>
 
-``` C++
-/**
+{{% md %}}
+
+```C++
  * Author  : Morgen Sudyanto
  * Problem : Cegah Penyebaran Corona
  */
@@ -177,6 +144,8 @@ int main () {
 }
 
 ```
+
+{{% /md %}}
 
 </details>
 
