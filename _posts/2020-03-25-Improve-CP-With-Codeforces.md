@@ -84,7 +84,7 @@ Ada *must have extension* nih buat kalian yang ikut kontes di CF, yaitu extensio
 
 ![rating_cf]({{ site.baseurl }}assets/images/rating_CF.png)
 
-(**Catatan** : Sekarang seharusnya **Candidate Master** $$1900-2099$$, **master** $$2100-2299$$, **Legendary Grandmaster** $$\geq 3000$$)
+(**Catatan** : Sekarang seharusnya **Candidate Master** $$1900-2099$$, **Master** $$2100-2299$$, **Legendary Grandmaster** $$\geq 3000$$)
 
 *Rating* ini berubah ketika kita mengikuti *rated contest*, lebih baik *rank*-nya kemungkinan naik rating lebih besar juga. Tentunya orang yang memiliki *rating* tinggi akan mempunyai *expected rank* yang lebih tinggi, jadi harus lebih bagus performanya di kontes. Setiap *rating* changes terjadi, akan ada visualisasi graph pada profile *user* tersebut. Contohnya kayak di *profile* mas **tourist** ini.
 
