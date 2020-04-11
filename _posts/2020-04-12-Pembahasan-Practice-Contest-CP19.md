@@ -25,8 +25,6 @@ Scoreboard setelah difinalisasi:
 
 ### Cegah Penyebaran Corona
 
-Author : Morgen Sudyanto
-
 Jawaban dari soal ini adalah: jumlah total semua node - jumlah node yang di "block" oleh sebuah node hijau.
 
 Jumlah total semua node dapat dihitung dengan rumus :
@@ -43,7 +41,11 @@ Selain itu, ada kasus khusus yaitu bila $$ k $$ bernilai $$ 1 $$ (kira - kira ke
 
 Kode Solusi:
 
-``` c++
+```c++
+/*
+ * Author  : Morgen Sudyanto
+ * Problem : Cegah Penyebaran Corona
+ */
 #include <bits/stdc++.h>
 #define fi first
 #define se second
@@ -148,9 +150,11 @@ Solusi kali ini cukup *straightforward* saja, kita tinggal bruteforce dengan men
 
 Kode Solusi:
 
-``` c++
-// Author  : mhasan01
-// Problem : Imba Berbaris (Version 1)
+```c++
+/**
+* Author  : mhasan01
+* Problem : Imba Berbaris (Version 1)
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -187,7 +191,7 @@ Kita tidak bisa menggunakan Bruteforce kali ini. Sehingga diperlukan data strukt
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 2)
@@ -231,15 +235,17 @@ int main() {
 }
 ```
 
-
-
 ### Imba Berbaris V3
 
 Jika Anda berhasil menyelesaikan Version 2, maka Version 3 ini sebenarnya mudah saja. Kita tinggal urutkan terlebih dahulu nilai-nilai $$ M_i $$-nya, bisa dengan `pair<int, int>` lalu di `sort` kemudian dimasukkan ke `unordered_map<int, int>` atau `map<int, int>`. Kali ini saya urutkan dengan memasukkannya ke dalam `set`, kemudian iterate set tersebut sambil menghitung urutannya, lalu di masukkan ke dalam `unordered_map<int, int>` urutannya.
 
 Kode Solusi:
 
-``` c++
+```c++
+/**
+* Author  : mhasan01
+* Problem : Imba Berbaris (Version 3)
+*/
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -293,7 +299,7 @@ Soal ini cukup *well-known*, solusinya ya sederhana saja, Banyaknya cara naik ta
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : mhasan01
 * Problem : Naik Tangga (Version 1)
@@ -332,13 +338,13 @@ int main() {
 
 Kali ini $$ N $$ cukup besar, sehingga tidak mungkin kita masukkan ke dalam suatu Array/Vector. Oleh karena itu, kita bisa gunakan **[Matrix Exponentiation](https://www.geeksforgeeks.org/matrix-exponentiation/)**. Triknya adalah sebagai berikut, misalkan kita notasikan $$ F_i $$ sebagai fibbonaci ke-$$i$$. Maka bisa didapat
 
-$$ \begin{pmatrix} F_n\\ F_{n + 1} \end{pmatrix} = \left \begin{pmatrix} 0 & 1\\ 1 & 1 \right \end{pmatrix}^n \begin{pmatrix} F_0\\ F_1 \end{pmatrix} $$
+![Fibbonaci]({{ site.baseurl }}assets/images/fibbon.gif)
 
 Sehingga kita tinggal mencari cara mengalikan matriks dengan cepat, yaitu dengan Matrix Exponentiation tadi.
 
 Kode Solusi:
 
-``` c++
+```c++
 
 /**
 * Author  : mhasan01
@@ -420,15 +426,13 @@ int main() {
 
 ```
 
-
-
 ### Penyebaran Corona V1
 
 Soal ini cukup standar, kita hanya perlu melakukan DFS atau BFS dimulai dari **root** (pada kasus ini **root** = $$ 1 $$), lalu pada *traversal* tersebut kita catat jarak *root* ke node. Disini kita gunakan saja DFS, salah satu implementasi kodenya dapat dilihat di kode solusi.
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 1)
@@ -477,7 +481,7 @@ int main() {
 
 ### Penyebaran Corona V2
 
-Soal ini sebenarnya hanya menanyakan jarak dua *node* pada suatu *tree*. Tentunya, melakukan DFS pada setiap node bukan ide yang baik, oleh karena itu kita gunakan ide lain, yakni menggunakan **LCA** (*Lowest Common Ancestor*). Penjelasan mengenai **LCA** dapat dilihat di [**link ini**](https://cp-algorithms.com/graph/lca.html). Kita asumsikan *root* graf ada pada *node* $$ 1 $$, lalu seperti soal sebelumnya kita hitung jarak *node* $$ 1 $$ ke semua *node*, anggap saja kita catat di *array* bernama **dist**, maka untuk setiap pasang *node u, v* kita dapat mencari jaraknya dengan rumus:
+Soal ini sebenarnya hanya menanyakan jarak dua *node* pada suatu *tree*. Tentunya, melakukan DFS pada setiap node bukan ide yang baik, oleh karena itu kita gunakan ide lain, yakni menggunakan **LCA** (*Lowest Common Ancestor*). Penjelasan mengenai **LCA** dapat dilihat di [**link ini**](https://cp-algorithms.com/graph/lca.html). Kita asumsikan *root* graf ada pada *node* $$ 1 $$, lalu seperti soal sebelumnya kita hitung jarak *node* $$ 1 $$ ke semua *node*, anggap saja kita catat di *array* bernama **dist**, maka untuk setiap pasang *node** $$ u $$, $$ v $$ kita dapat mencari jaraknya dengan rumus:
 
 `distance(u, v) = dist[u] + dist[v] - 2 * dist[lca(u, v)]`
 
@@ -485,7 +489,7 @@ Implementasi **LCA** termudah (menurut aku) adalah dengan menggunakan teknik [**
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 2)
@@ -568,7 +572,7 @@ Perhatikan bahwa yang penting adalah posisi kolom setiap topping. Solusinya cuku
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : Kamal Shafi
 * Problem : Potong Kue
@@ -617,7 +621,7 @@ Solusi ini cukup *straightforward* karena *constraint* yang kecil, kita tinggal 
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 1)
@@ -672,7 +676,7 @@ Kali ini kita tidak bisa melakukan Bruteforce, maka kita perlu suatu data strukt
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 2)
@@ -777,7 +781,7 @@ Kali ini kita butuh *update range*, maka kita perlu data struktur lebih advance.
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 3)
@@ -913,7 +917,7 @@ Soal ini dapat diselesaikan dengan BFS/DFS, namun *intended solution*-nya adalah
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
 * Author  : Kamal Shafi
 * Problem : Tugas Kelompok
@@ -973,7 +977,7 @@ Soal ini cukup klasik, kita tinggal gunakan **[Kadane's Algorithm](https://www.g
 
 Kode Solusi:
 
-``` c++
+```c++
 /**
  * Author  : Morgen Sudyanto
  * Problem : Tugas Kecil Mufraswid
@@ -1022,7 +1026,7 @@ Soal kali ini tidak seklasik Tugas Kecil Mufraswid. Kita perlu melakukan **Dynam
 
 Kode Solusi:
 
-``` c++
+```c++
 // Author  : Morgen Sudyanto
 // Problem : Tugas Besar Mufraswid
 #include <bits/stdc++.h>
