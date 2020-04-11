@@ -25,6 +25,8 @@ Scoreboard setelah difinalisasi:
 
 ### Cegah Penyebaran Corona
 
+Author : Morgen Sudyanto
+
 Jawaban dari soal ini adalah: jumlah total semua node - jumlah node yang di "block" oleh sebuah node hijau.
 
 Jumlah total semua node dapat dihitung dengan rumus :
@@ -41,10 +43,7 @@ Selain itu, ada kasus khusus yaitu bila $$ k $$ bernilai $$ 1 $$ (kira - kira ke
 
 Kode Solusi:
 
-```C
-// Author  : Morgen Sudyanto
-// Problem : Cegah Penyebaran Corona
-
+``` c++
 #include <bits/stdc++.h>
 #define fi first
 #define se second
@@ -147,13 +146,11 @@ int main () {
 
 Solusi kali ini cukup *straightforward* saja, kita tinggal bruteforce dengan menggunakan for loop dua kali
 
-PotongKode Solusi:
+Kode Solusi:
 
-``` C
-/**
-* Author  : mhasan01
-* Problem : Imba Berbaris (Version 1)
-*/
+``` c++
+// Author  : mhasan01
+// Problem : Imba Berbaris (Version 1)
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -190,7 +187,7 @@ Kita tidak bisa menggunakan Bruteforce kali ini. Sehingga diperlukan data strukt
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 2)
@@ -242,11 +239,7 @@ Jika Anda berhasil menyelesaikan Version 2, maka Version 3 ini sebenarnya mudah 
 
 Kode Solusi:
 
-``` C
-/**
-* Author  : mhasan01
-* Problem : Imba Berbaris (Version 3)
-*/
+``` c++
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -300,7 +293,7 @@ Soal ini cukup *well-known*, solusinya ya sederhana saja, Banyaknya cara naik ta
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : mhasan01
 * Problem : Naik Tangga (Version 1)
@@ -345,7 +338,7 @@ Sehingga kita tinggal mencari cara mengalikan matriks dengan cepat, yaitu dengan
 
 Kode Solusi:
 
-``` C
+``` c++
 
 /**
 * Author  : mhasan01
@@ -435,7 +428,7 @@ Soal ini cukup standar, kita hanya perlu melakukan DFS atau BFS dimulai dari **r
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 1)
@@ -492,7 +485,7 @@ Implementasi **LCA** termudah (menurut aku) adalah dengan menggunakan teknik [**
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 2)
@@ -575,7 +568,7 @@ Perhatikan bahwa yang penting adalah posisi kolom setiap topping. Solusinya cuku
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : Kamal Shafi
 * Problem : Potong Kue
@@ -624,7 +617,7 @@ Solusi ini cukup *straightforward* karena *constraint* yang kecil, kita tinggal 
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 1)
@@ -679,7 +672,7 @@ Kali ini kita tidak bisa melakukan Bruteforce, maka kita perlu suatu data strukt
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 2)
@@ -784,7 +777,7 @@ Kali ini kita butuh *update range*, maka kita perlu data struktur lebih advance.
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 3)
@@ -920,7 +913,7 @@ Soal ini dapat diselesaikan dengan BFS/DFS, namun *intended solution*-nya adalah
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
 * Author  : Kamal Shafi
 * Problem : Tugas Kelompok
@@ -980,7 +973,7 @@ Soal ini cukup klasik, kita tinggal gunakan **[Kadane's Algorithm](https://www.g
 
 Kode Solusi:
 
-``` C
+``` c++
 /**
  * Author  : Morgen Sudyanto
  * Problem : Tugas Kecil Mufraswid
@@ -1029,7 +1022,7 @@ Soal kali ini tidak seklasik Tugas Kecil Mufraswid. Kita perlu melakukan **Dynam
 
 Kode Solusi:
 
-``` C
+``` c++
 // Author  : Morgen Sudyanto
 // Problem : Tugas Besar Mufraswid
 #include <bits/stdc++.h>
