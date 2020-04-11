@@ -41,11 +41,11 @@ Selain itu, ada kasus khusus yaitu bila $$ k $$ bernilai $$ 1 $$ (kira - kira ke
 
 Kode Solusi:
 
-```C++
+```C
  * Author  : Morgen Sudyanto
  * Problem : Cegah Penyebaran Corona
  */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 #define fi first
 #define se second
 #define pb push_back
@@ -149,12 +149,12 @@ Solusi kali ini cukup *straightforward* saja, kita tinggal bruteforce dengan men
 
 PotongKode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 1)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -190,12 +190,12 @@ Kita tidak bisa menggunakan Bruteforce kali ini. Sehingga diperlukan data strukt
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 2)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -242,12 +242,12 @@ Jika Anda berhasil menyelesaikan Version 2, maka Version 3 ini sebenarnya mudah 
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 3)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -300,12 +300,12 @@ Soal ini cukup *well-known*, solusinya ya sederhana saja, Banyaknya cara naik ta
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Naik Tangga (Version 1)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -337,13 +337,13 @@ int main() {
 
 ### Naik Tangga V2
 
-Kali ini $$ N $$ cukup besar, sehingga tidak mungkin kita masukkan ke dalam suatu Array/Vector. Oleh karena itu, kita bisa gunakan **[Matrix Exponentiation](https://www.geeksforgeeks.org/matrix-exponentiation/)**. Triknya adalah sebagai berikut, misalkan kita notasikan $$ F\_i $$ sebagai fibbonaci ke-$$i$$. Maka bisa didapat
+Kali ini $$ N $$ cukup besar, sehingga tidak mungkin kita masukkan ke dalam suatu Array/Vector. Oleh karena itu, kita bisa gunakan **[Matrix Exponentiation](https://www.geeksforgeeks.org/matrix-exponentiation/)**. Triknya adalah sebagai berikut, misalkan kita notasikan $$ F_i $$ sebagai fibbonaci ke-$$i$$. Maka bisa didapat
 
 $$
 
 \begin{pmatrix}
-F\_n\\ 
-F\_{n + 1}
+F_n\\ 
+F_{n + 1}
 \end{pmatrix}
 =
 \left
@@ -354,8 +354,8 @@ F\_{n + 1}
 \end{pmatrix}^n
 
 \begin{pmatrix}
-F\_0\\ 
-F\_1
+F_0\\ 
+F_1
 \end{pmatrix}
 
 $$
@@ -364,13 +364,13 @@ Sehingga kita tinggal mencari cara mengalikan matriks dengan cepat, yaitu dengan
 
 Kode Solusi:
 
-``` C++
+``` C
 
 /**
 * Author  : mhasan01
 * Problem : Naik Tangga (Version 2)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -450,16 +450,16 @@ int main() {
 
 ### Penyebaran Corona V1
 
-Soal ini cukup standar, kita hanya perlu melakukan DFS atau BFS dimulai dari **root** (pada kasus ini **root** = 1), lalu pada *traversal* tersebut kita catat jarak *root* ke node. Disini kita gunakan saja DFS, salah satu implementasi kodenya dapat dilihat di kode solusi.
+Soal ini cukup standar, kita hanya perlu melakukan DFS atau BFS dimulai dari **root** (pada kasus ini **root** = $$ 1 $$), lalu pada *traversal* tersebut kita catat jarak *root* ke node. Disini kita gunakan saja DFS, salah satu implementasi kodenya dapat dilihat di kode solusi.
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 1)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -503,7 +503,7 @@ int main() {
 
 ### Penyebaran Corona V2
 
-Soal ini sebenarnya hanya menanyakan jarak dua *node* pada suatu *tree*. Tentunya, melakukan DFS pada setiap node bukan ide yang baik, oleh karena itu kita gunakan ide lain, yakni menggunakan **LCA** (*Lowest Common Ancestor*). Penjelasan mengenai **LCA** dapat dilihat di [**link ini**](https://cp-algorithms.com/graph/lca.html). Kita asumsikan *root* graf ada pada *node* 1, lalu seperti soal sebelumnya kita hitung jarak *node* 1 ke semua *node*, anggap saja kita catat di *array* bernama **dist**, maka untuk setiap pasang *node u, v* kita dapat mencari jaraknya dengan rumus:
+Soal ini sebenarnya hanya menanyakan jarak dua *node* pada suatu *tree*. Tentunya, melakukan DFS pada setiap node bukan ide yang baik, oleh karena itu kita gunakan ide lain, yakni menggunakan **LCA** (*Lowest Common Ancestor*). Penjelasan mengenai **LCA** dapat dilihat di [**link ini**](https://cp-algorithms.com/graph/lca.html). Kita asumsikan *root* graf ada pada *node* $$ 1 $$, lalu seperti soal sebelumnya kita hitung jarak *node* $$ 1 $$ ke semua *node*, anggap saja kita catat di *array* bernama **dist**, maka untuk setiap pasang *node u, v* kita dapat mencari jaraknya dengan rumus:
 
 > `distance(u, v) = dist[u] + dist[v] - 2 * dist[lca(u, v)]`
 
@@ -511,12 +511,12 @@ Implementasi **LCA** termudah (menurut aku) adalah dengan menggunakan teknik [**
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 2)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -594,12 +594,12 @@ Perhatikan bahwa yang penting adalah posisi kolom setiap topping. Solusinya cuku
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : Kamal Shafi
 * Problem : Potong Kue
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -643,12 +643,12 @@ Solusi ini cukup *straightforward* karena *constraint* yang kecil, kita tinggal 
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 1)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -698,12 +698,12 @@ Kali ini kita tidak bisa melakukan Bruteforce, maka kita perlu suatu data strukt
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 2)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -803,12 +803,12 @@ Kali ini kita butuh *update range*, maka kita perlu data struktur lebih advance.
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 3)
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -939,12 +939,12 @@ Soal ini dapat diselesaikan dengan BFS/DFS, namun *intended solution*-nya adalah
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
 * Author  : Kamal Shafi
 * Problem : Tugas Kelompok
 */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 
 using namespace std;
 
@@ -999,12 +999,12 @@ Soal ini cukup klasik, kita tinggal gunakan **[Kadane's Algorithm](https://www.g
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
  * Author  : Morgen Sudyanto
  * Problem : Tugas Kecil Mufraswid
  */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 #define fi first
 #define se second
 #define pb push_back
@@ -1044,16 +1044,16 @@ int main () {
 
 ### Tugas Besar Mufraswid
 
-Soal kali ini tidak seklasik Tugas Kecil Mufraswid. Kita perlu melakukan **Dynamic Programming**, untuk menghitung nilai subrectangle dengan cepat. Solusi kali ini sebenarnya cukup lama yakni dengan kompleksitas waktu $$ O (N^4) $$, mengingat $$ N = 100 $$ cukup kecil dilakukan Bruteforce. Cara yang lebih cepat dapat dilihat disini [Maximum Subrectangle](https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/)
+Soal kali ini tidak seklasik Tugas Kecil Mufraswid. Kita perlu melakukan **Dynamic Programming**, untuk menghitung nilai subrectangle dengan cepat. Solusi kali ini sebenarnya cukup lama yakni dengan kompleksitas waktu $$ O (N^4) $$, mengingat $$ N = 100 $$  cukup kecil dilakukan Bruteforce. Cara yang lebih cepat dapat dilihat disini [Maximum Subrectangle](https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/)
 
 Kode Solusi:
 
-``` C++
+``` C
 /**
  * Author  : Morgen Sudyanto
  * Problem : Tugas Besar Mufraswid
  */
-#include <bits/stdc++.h>
+#include <bits/stdC.h>
 #define fi first
 #define se second
 #define pb push_back
