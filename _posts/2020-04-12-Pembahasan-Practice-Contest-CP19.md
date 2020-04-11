@@ -383,6 +383,7 @@ int main() {
 Kali ini $$ N $$ cukup besar, sehingga tidak mungkin kita masukkan ke dalam suatu Array/Vector. Oleh karena itu, kita bisa gunakan **[Matrix Exponentiation](https://www.geeksforgeeks.org/matrix-exponentiation/)**. Triknya adalah sebagai berikut, misalkan kita notasikan $$ F\_i $$ sebagai fibbonaci ke-$$i$$. Maka bisa didapat
 
 $$
+
 \begin{pmatrix}
 F\_n\\ 
 F\_{n + 1}
@@ -399,6 +400,7 @@ F\_{n + 1}
 F\_0\\ 
 F\_1
 \end{pmatrix}
+
 $$
 
 Sehingga kita tinggal mencari cara mengalikan matriks dengan cepat, yaitu dengan Matrix Exponentiation tadi.
@@ -406,6 +408,7 @@ Sehingga kita tinggal mencari cara mengalikan matriks dengan cepat, yaitu dengan
 <details><summary><b>Kode Solusi:</b></summary>
 
 ``` C++
+
 /**
 * Author  : mhasan01
 * Problem : Naik Tangga (Version 2)
@@ -422,8 +425,6 @@ const long long M = 1e9 + 7;
 long long n;
 int q;
 
-matrix identitas = {{1, 0}, {0, 1}};
-matrix m = {{0, 1}, {1, 1}};
 
 matrix multiply(matrix& x, matrix& y) {
     matrix ret(sz, vector<long long>(sz, 0));
@@ -472,6 +473,7 @@ int main() {
 
     return 0;
 }
+
 ```
 
 </details>
