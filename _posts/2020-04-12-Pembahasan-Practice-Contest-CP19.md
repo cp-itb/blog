@@ -39,9 +39,7 @@ Pertama, kita sort dulu arraynya agar kita dapat mengunjungi node yang berada di
 
 Selain itu, ada kasus khusus yaitu bila $$ k $$ bernilai $$ 1 $$ (kira - kira kenapa hayo).
 
-<details><summary><b>Kode Solusi:</b></summary>
-
-{{% md %}}
+Kode Solusi:
 
 ```C++
  * Author  : Morgen Sudyanto
@@ -145,17 +143,11 @@ int main () {
 
 ```
 
-{{% /md %}}
-
-</details>
-
-<br>
-
 ### Imba Berbaris V1
 
 Solusi kali ini cukup *straightforward* saja, kita tinggal bruteforce dengan menggunakan for loop dua kali
 
-<details><summary><b>Kode Solusi:</b></summary>
+PotongKode Solusi:
 
 ``` C++
 /**
@@ -192,15 +184,11 @@ int main() {
 }
 ```
 
-</details>
-
-<br>
-
 ### Imba Berbaris V2
 
 Kita tidak bisa menggunakan Bruteforce kali ini. Sehingga diperlukan data struktur tertentu. Untuk menyelesaikan soal ini kita bisa gunakan **[Segment Tree](https://cp-algorithms.com/data_structures/segment_tree.html)** atau dengan **[Fenwick Tree/BIT](https://cp-algorithms.com/data_structures/fenwick.html)**. Di kode solusi kali ini, kita akan gunakan BIT saja karena lebih mudah diimplementasi. Untuk setiap query kita lakukan *get* untuk mencari nilai yang kurang dari sama dengan $$ M_i $$, setelah itu baru kita update BIT kita dengan *add* $$ M_i $$.
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -246,13 +234,13 @@ int main() {
 }
 ```
 
-</details>
+
 
 ### Imba Berbaris V3
 
 Jika Anda berhasil menyelesaikan Version 2, maka Version 3 ini sebenarnya mudah saja. Kita tinggal urutkan terlebih dahulu nilai-nilai $$ M_i $$-nya, bisa dengan `pair<int, int>` lalu di `sort` kemudian dimasukkan ke `unordered_map<int, int>` atau `map<int, int>`. Kali ini saya urutkan dengan memasukkannya ke dalam `set`, kemudian iterate set tersebut sambil menghitung urutannya, lalu di masukkan ke dalam `unordered_map<int, int>` urutannya.
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -306,13 +294,11 @@ int main() {
 }
 ```
 
-</details>
-
 ### Naik Tangga V1
 
 Soal ini cukup *well-known*, solusinya ya sederhana saja, Banyaknya cara naik tangga ke-$$n$$ bernilai sama dengan Fibbonaci ke-$$n$$. Implementasi fibbonaci kali ini kita **precompute** dulu, baru dikeluarkan saat *query*
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -349,8 +335,6 @@ int main() {
 }
 ```
 
-</details>
-
 ### Naik Tangga V2
 
 Kali ini $$ N $$ cukup besar, sehingga tidak mungkin kita masukkan ke dalam suatu Array/Vector. Oleh karena itu, kita bisa gunakan **[Matrix Exponentiation](https://www.geeksforgeeks.org/matrix-exponentiation/)**. Triknya adalah sebagai berikut, misalkan kita notasikan $$ F\_i $$ sebagai fibbonaci ke-$$i$$. Maka bisa didapat
@@ -378,7 +362,7 @@ $$
 
 Sehingga kita tinggal mencari cara mengalikan matriks dengan cepat, yaitu dengan Matrix Exponentiation tadi.
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 
@@ -462,13 +446,13 @@ int main() {
 
 ```
 
-</details>
+
 
 ### Penyebaran Corona V1
 
 Soal ini cukup standar, kita hanya perlu melakukan DFS atau BFS dimulai dari **root** (pada kasus ini **root** = 1), lalu pada *traversal* tersebut kita catat jarak *root* ke node. Disini kita gunakan saja DFS, salah satu implementasi kodenya dapat dilihat di kode solusi.
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -515,7 +499,7 @@ int main() {
 }
 ```
 
-</details>
+
 
 ### Penyebaran Corona V2
 
@@ -525,7 +509,7 @@ Soal ini sebenarnya hanya menanyakan jarak dua *node* pada suatu *tree*. Tentuny
 
 Implementasi **LCA** termudah (menurut aku) adalah dengan menggunakan teknik [**Binary Lifting**](https://cp-algorithms.com/graph/lca_binary_lifting.html).
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -602,13 +586,13 @@ int main() {
 }
 ```
 
-</details>
+
 
 ### Potong Kue
 
 Perhatikan bahwa yang penting adalah posisi kolom setiap topping. Solusinya cukup mudah, untuk setiap kolom yang pilih, kita hitung ada berapa banyak topping di kolom sebelah kiri dan di kolom sebelah kanan kemudian hitung selisihnya. Dari semua kemungkinan pemilihan kolom itu, kita ambil selisih yang minimum. Tentunya mencoba semua kemungkinan lalu Brutefoce tidak baik, ini akan menghasilkan waktu $$ O (N^2) $$. Cara yang baik adalah dengan **Precompute Prefix Sum** dan **Suffix Sum**. Sehingga total kompleksitas menjadi $$ O (N) $$
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -651,13 +635,13 @@ int main () {
 }
 ```
 
-</details>
+
 
 ### Penyiraman Tanaman V1
 
 Solusi ini cukup *straightforward* karena *constraint* yang kecil, kita tinggal implementasikan saja apa yang disuruh soal.
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -706,13 +690,13 @@ int main() {
 }
 ```
 
-</details>
+
 
 ### Penyiraman Tanaman V2
 
 Kali ini kita tidak bisa melakukan Bruteforce, maka kita perlu suatu data struktur. Soal-soal seperti ini seringkali di selesaikan dengan **[Segment Tree](https://cp-algorithms.com/data_structures/segment_tree.html)**. Untuk implementasinya bisa dilihat di kode solusi ini.
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -811,13 +795,13 @@ int main() {
 }
 ```
 
-</details>
+
 
 ### Penyiraman Tanaman V3
 
 Kali ini kita butuh *update range*, maka kita perlu data struktur lebih advance. Kita bisa selesaikan soal ini dengan **[Segment Tree Lazy Propagation](https://cp-algorithms.com/data_structures/segment_tree.html)**. Untuk implementasinya bisa dilihat di kode solusi ini.
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -949,13 +933,11 @@ int main() {
 }
 ```
 
-</details>
-
 ### Tugas Kelompok
 
 Soal ini dapat diselesaikan dengan BFS/DFS, namun *intended solution*-nya adalah dengan menggunakan [**DSU**](https://cp-algorithms.com/data_structures/disjoint_set_union.html) (Disjoint Set Union).
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -1011,15 +993,11 @@ int main () {
 }
 ```
 
-</details>
-
 ### Tugas Kecil Mufraswid
-
-### Solusi Tugas Kecil Mufraswid oleh Morgen Sudyanto
 
 Soal ini cukup klasik, kita tinggal gunakan **[Kadane's Algorithm](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)**. Link penjelasan yang lebih baik ada di sini [Subarray with maximum sum](https://cp-algorithms.com/others/maximum_average_segment.html).
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -1062,13 +1040,13 @@ int main () {
 }
 ```
 
-</details>
+
 
 ### Tugas Besar Mufraswid
 
 Soal kali ini tidak seklasik Tugas Kecil Mufraswid. Kita perlu melakukan **Dynamic Programming**, untuk menghitung nilai subrectangle dengan cepat. Solusi kali ini sebenarnya cukup lama yakni dengan kompleksitas waktu $$ O (N^4) $$, mengingat $$ N = 100 $$ cukup kecil dilakukan Bruteforce. Cara yang lebih cepat dapat dilihat disini [Maximum Subrectangle](https://www.geeksforgeeks.org/maximum-sum-rectangle-in-a-2d-matrix-dp-27/)
 
-<details><summary><b>Kode Solusi:</b></summary>
+Kode Solusi:
 
 ``` C++
 /**
@@ -1136,4 +1114,3 @@ int main () {
 }
 ```
 
-</details>
