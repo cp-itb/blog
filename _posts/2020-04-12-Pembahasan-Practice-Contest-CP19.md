@@ -42,10 +42,10 @@ Selain itu, ada kasus khusus yaitu bila $$ k $$ bernilai $$ 1 $$ (kira - kira ke
 Kode Solusi:
 
 ```C
- * Author  : Morgen Sudyanto
- * Problem : Cegah Penyebaran Corona
- */
-#include <bits/stdC.h>
+// Author  : Morgen Sudyanto
+// Problem : Cegah Penyebaran Corona
+
+#include <bits/stdc++.h>
 #define fi first
 #define se second
 #define pb push_back
@@ -154,7 +154,7 @@ PotongKode Solusi:
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 1)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -195,7 +195,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 2)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -247,7 +247,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Imba Berbaris (Version 3)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -305,7 +305,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Naik Tangga (Version 1)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -339,26 +339,7 @@ int main() {
 
 Kali ini $$ N $$ cukup besar, sehingga tidak mungkin kita masukkan ke dalam suatu Array/Vector. Oleh karena itu, kita bisa gunakan **[Matrix Exponentiation](https://www.geeksforgeeks.org/matrix-exponentiation/)**. Triknya adalah sebagai berikut, misalkan kita notasikan $$ F_i $$ sebagai fibbonaci ke-$$i$$. Maka bisa didapat
 
-$$
-
-\begin{pmatrix}
-F_n\\ 
-F_{n + 1}
-\end{pmatrix}
-=
-\left
-\begin{pmatrix}
-0 & 1\\ 
-1 & 1
-\right
-\end{pmatrix}^n
-
-\begin{pmatrix}
-F_0\\ 
-F_1
-\end{pmatrix}
-
-$$
+$$ \begin{pmatrix} F_n\\ F_{n + 1} \end{pmatrix} = \left \begin{pmatrix} 0 & 1\\ 1 & 1 \right \end{pmatrix}^n \begin{pmatrix} F_0\\ F_1 \end{pmatrix} $$
 
 Sehingga kita tinggal mencari cara mengalikan matriks dengan cepat, yaitu dengan Matrix Exponentiation tadi.
 
@@ -370,7 +351,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Naik Tangga (Version 2)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -459,7 +440,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 1)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -505,7 +486,7 @@ int main() {
 
 Soal ini sebenarnya hanya menanyakan jarak dua *node* pada suatu *tree*. Tentunya, melakukan DFS pada setiap node bukan ide yang baik, oleh karena itu kita gunakan ide lain, yakni menggunakan **LCA** (*Lowest Common Ancestor*). Penjelasan mengenai **LCA** dapat dilihat di [**link ini**](https://cp-algorithms.com/graph/lca.html). Kita asumsikan *root* graf ada pada *node* $$ 1 $$, lalu seperti soal sebelumnya kita hitung jarak *node* $$ 1 $$ ke semua *node*, anggap saja kita catat di *array* bernama **dist**, maka untuk setiap pasang *node u, v* kita dapat mencari jaraknya dengan rumus:
 
-> `distance(u, v) = dist[u] + dist[v] - 2 * dist[lca(u, v)]`
+`distance(u, v) = dist[u] + dist[v] - 2 * dist[lca(u, v)]`
 
 Implementasi **LCA** termudah (menurut aku) adalah dengan menggunakan teknik [**Binary Lifting**](https://cp-algorithms.com/graph/lca_binary_lifting.html).
 
@@ -516,7 +497,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Penyebaran Corona (Version 2)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -599,7 +580,7 @@ Kode Solusi:
 * Author  : Kamal Shafi
 * Problem : Potong Kue
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -648,7 +629,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 1)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -703,7 +684,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 2)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -808,7 +789,7 @@ Kode Solusi:
 * Author  : mhasan01
 * Problem : Penyiraman Tanaman (Version 3)
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -944,7 +925,7 @@ Kode Solusi:
 * Author  : Kamal Shafi
 * Problem : Tugas Kelompok
 */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -1004,7 +985,7 @@ Kode Solusi:
  * Author  : Morgen Sudyanto
  * Problem : Tugas Kecil Mufraswid
  */
-#include <bits/stdC.h>
+#include <bits/stdc++.h>
 #define fi first
 #define se second
 #define pb push_back
@@ -1049,11 +1030,9 @@ Soal kali ini tidak seklasik Tugas Kecil Mufraswid. Kita perlu melakukan **Dynam
 Kode Solusi:
 
 ``` C
-/**
- * Author  : Morgen Sudyanto
- * Problem : Tugas Besar Mufraswid
- */
-#include <bits/stdC.h>
+// Author  : Morgen Sudyanto
+// Problem : Tugas Besar Mufraswid
+#include <bits/stdc++.h>
 #define fi first
 #define se second
 #define pb push_back
