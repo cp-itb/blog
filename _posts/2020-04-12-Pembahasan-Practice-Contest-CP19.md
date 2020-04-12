@@ -13,7 +13,7 @@ Bagaimana gan, setelah menjalankan kontes latihan seminggu, apakah ada perkemban
 ### Kilas Balik Practice Contest CP19
 
 Selamat kepada **Top Scorer** Practice Contest kali ini:
-1. **wibisono** (Jauhar Wibisono) - $$ 15 $$ poin
+1. **bowosini** (Jauhar Wibisono) - $$ 15 $$ poin
 2. **f_aziz14** (Faris Aziz) - $$ 14 $$ poin
 3. **integer_overflow** (Marcello Faria) - $$ 13 $$ poin
 4. **aaa161** (Rehagana Sembiring) - $$ 6 $$ poin
